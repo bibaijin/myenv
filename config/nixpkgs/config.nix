@@ -8,11 +8,13 @@
         binutils
         cabal2nix
         cabal-install
+        dep
         emacs
         fd
         fish
         ghc
         git
+        gnumake
         go
         graphviz
         haskellPackages.apply-refact
@@ -28,6 +30,7 @@
         pandoc
         python
         python3
+        R
         ripgrep
         stack
         taskwarrior

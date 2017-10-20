@@ -77,5 +77,7 @@
 
   programs.fish.enable = true;
   virtualisation.docker.enable = true;
+  networking.firewall.enable = true;
+  networking.firewall.allowedTCPPorts = [ 80 443 8080 ];
 
 }
