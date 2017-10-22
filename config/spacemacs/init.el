@@ -31,7 +31,9 @@ values."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(
-     auto-completion
+     (auto-completion
+      (haskell :variables
+               haskell-completion-backend 'intero))
      better-defaults
      elm
      emacs-lisp

@@ -27,6 +27,7 @@
         haskellPackages.stylish-haskell
         htop
         iftop
+        inetutils
         pandoc
         python
         python3
