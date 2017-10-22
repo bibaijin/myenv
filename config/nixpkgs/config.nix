@@ -9,6 +9,7 @@
         cabal2nix
         cabal-install
         dep
+        docker_compose
         emacs
         fd
         fish
@@ -28,6 +29,10 @@
         htop
         iftop
         inetutils
+        nodePackages.eslint
+        nodePackages.js-beautify
+        nodePackages.npm
+        nodePackages.tern
         pandoc
         python
         python3
@@ -37,6 +42,7 @@
         taskwarrior
         texlive.combined.scheme-full
         vim
+        yarn
         # (import ./dotfiles.nix)
       ];
     };
