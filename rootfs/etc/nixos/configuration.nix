@@ -77,12 +77,16 @@
 
   programs.fish.enable = true;
   virtualisation.docker.enable = true;
+  virtualisation.docker.extraOptions =
+    ''
+      --registry-mirror=https://registry.docker-cn.com
+    '';
   users.users.vagrant.extraGroups = [ "docker" ];
   networking.firewall.enable = true;
   networking.firewall.allowedTCPPorts = [ 80 443 8080 ];
   networking.extraHosts =
-  ''
-    192.168.10.1 gogs.bibaijin.local
-  '';
+    ''
+      192.168.10.1 gogs.bibaijin.local
+    '';
 
 }
