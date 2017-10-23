@@ -1,5 +1,5 @@
 # 环境变量
-set -x GOPATH ~/apps
+set -x GOPATH /apps
 set -x PATH ~/.local/bin $GOPATH/bin $PATH
 set -x EDITOR vim
 set -x LANG en_US.UTF-8
